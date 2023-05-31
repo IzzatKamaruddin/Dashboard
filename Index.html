@@ -1,67 +1,77 @@
-<!DOCTYPE html>
-<html>
 <head>
     <meta charset="utf-8">
-    <title>State Dossier Dashboard</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            text-align: center;
-            font-family: sans-serif;
-            background-image: linear-gradient(120deg, #3f6bd8, #98c2da);
-            min-height: 100vh;
-        }
+    <title>IUS Survey</title>
+</head>
+<style media="screen">
+    body{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        font-family: sans-serif;
+        background-image: linear-gradient(120deg,#3f6bd8, #98c2da);
+        min-height: 100vh;
+    }
 
-        .logo-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 130px; /* set the height of the logo container as per your requirement */
-        }
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130px; /* set the height of the logo container as per your requirement */
 
-        .background {
-            margin: 0;
-            padding: 0;
-            text-align: center;
-            font-family: sans-serif;
-            background-position-y: 0.5%;
-            background-repeat: no-repeat;
-            background-size: 100%;
-            min-height: auto;
-        }
+ }
 
-        #btn {
-            font-family: inherit;
-            margin-top: 1px;
-            border: none;
-            color: #fff;
-            background-image: linear-gradient(120deg, #a4d6ed, #101ee5);
-            width: auto;
-            padding: 10px;
-            border-radius: 30px;
-            outline: none;
-            top: 60%;
-            cursor: pointer;
-        }
+ .background 
+ {
+    margin: 0;
+        padding: 0;
+        text-align: center;
+        font-family: sans-serif;
+        background-position-y:0.5% ;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        min-height: auto;
+ }
 
-        #btn:hover {
-            box-shadow: 1px 1px 10px #341f97;
-        }
-    </style>
+ #btn{
+  font-family: inherit;
+  margin-top: 1px;
+  border: none;
+  color: #fff;
+  background-image: linear-gradient(120deg,#a4d6ed, #101ee5);
+  width: auto;
+  padding: 10px;
+  border-radius: 30px;
+  outline: none;
+  top: 60%;
+  cursor: pointer;
+}
+#btn:hover{
+  box-shadow: 1px 1px 10px #341f97;
+}
+
+</style>
 </head>
 <body>
-    <div class="logo-container">
+
+
+<div class="logo-container">
         <img src="MCMC New Logo.png" alt="Logo" width="170" height="190">
-    </div>
+</div>
 
     <div class="background">
-        <button id="btn" onclick="window.location.href='https://cognos.mcmc.gov.my/ibmcognos/bi/?perspective=dashboard&pathRef=.public_folders%2FMy%2BContent_Backup%2FAizad%2FState%2BDashboard_New%2FState%2BDossier_Dashboard%2FDashboard%2BBy%2BIndicator_Test%2FState%2BDossier_1_V2&action=view&mode=dashboard&subView=model0000018473edfde6_00000000&CAMNamespace=AzureAD&CAMUsername=cognospublicview@mcmc.gov.my&CAMPassword=mcmc@2o22&ui_appbar=false&ui_navbar=false'">
-            State Dossier Dashboard
-        </button>
-    </div>
+      <button id="btn" target="_self" onclick="window.location.href='https://cognos.mcmc.gov.my/ibmcognos/bi/?pathRef=.public_folders%2FMy%2BContent_Backup%2FAizad%2FState%2BDashboard_New%2FState%2BDossier_Dashboard%2Ftesting%2Bmobile%2B2&amp;closeWindowOnLastView=true&amp;ui_appbar=false&amp;ui_navbar=false&amp;shareMode=embedded&amp;action=run&amp;format=HTML&amp;prompt=false'">Click here to view the dashboard</button>
 
-</body>
-</html>
+
+    </body>
+
+    </html>
+
+
+</div>
+
+
+
+
+
 
 
